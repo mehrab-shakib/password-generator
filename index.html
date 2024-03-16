@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zenPass</title>
+    <link rel="stylesheet" href="main.css">
+    
+
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="zenPass.svg" alt="ZenPass Logo">
+        </div>
+        <div class="options">
+            <label><input type="checkbox" id="includeUppercase">Include Uppercase Letters</label>
+            <label><input type="checkbox" id="includeNumbers">Include Numbers</label>
+            <label><input type="checkbox" id="includeSymbols">Include Symbols</label>
+        </div>
+        <div class="display" >
+            <input type="text" id="showPass" placeholder="Password" readonly >
+             <img src="copyy.png" alt="copy" id="copy">
+        </div>
+        <button id="buttonn" class="bttn">Generate Password</button>
+    </div>
+
+    <footer class="footer">
+        <p>Developed by <a href="https://github.com/mehrab-shakib" target="_blank">mehrab-shakib</a></p>
+        <p> Get the <a href="https://github.com/mehrab-shakib/zenPass" target="_blank">Source Code</a></p>
+      </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>
